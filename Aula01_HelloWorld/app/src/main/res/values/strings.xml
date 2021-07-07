@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Aula01_HelloWorld</string>
+    <string name="seja_bem_vindo_visitante">Seja bem-vindo, visitante!</string>
+    <string name="salvar">Salvar</string>
+</resources>
