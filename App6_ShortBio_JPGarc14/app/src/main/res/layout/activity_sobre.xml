@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".sobre">
+
+    <TextView
+            android:text="Sobre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titulo"
+            android:textSize="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="40dp"
+            app:layout_constraintHorizontal_bias="0.498"/>
+    <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/foto"
+            android:id="@+id/foto"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titulo"
+            tools:layout_editor_absoluteY="121dp"/>
+    <TextView
+            android:text="João Paulo Garcia Silva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_marginTop="35dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/foto"
+            tools:layout_editor_absoluteY="337dp"
+            tools:layout_editor_absoluteX="135dp"/>
+    <TextView
+            android:text="07/05/2001 - 20 anos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            tools:layout_editor_absoluteY="361dp"
+            tools:layout_editor_absoluteX="133dp"/>
+    <TextView
+            android:text="Estudante de ADS na Fatec Praia Grande"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            tools:layout_editor_absoluteY="384dp"
+            tools:layout_editor_absoluteX="127dp"/>
+    <TextView
+            android:text="Praia Grande/SP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            tools:layout_editor_absoluteY="384dp"
+            tools:layout_editor_absoluteX="127dp"/>
+    <Button
+            android:text="Voltar"
+            android:layout_width="180dp"
+            android:layout_height="65dp"
+            android:id="@+id/voltar"
+            android:layout_marginTop="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintVertical_bias="0.11"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

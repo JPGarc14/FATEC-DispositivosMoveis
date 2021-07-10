@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.jpgarcia.app6_shortbio_jpgarc14">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/info"
+            android:label="@string/app_name"
+            android:roundIcon="@drawable/info"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.App6_ShortBio_JPGarc14">
+        <activity android:name=".objetivo">
+        </activity>
+        <activity android:name=".experiencia">
+        </activity>
+        <activity android:name=".formacao">
+        </activity>
+        <activity android:name=".sobre">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
